@@ -1,3 +1,10 @@
-const test = <h1>HELLOO</h1>
+import Form from './form.jsx';
+function App() {
+  return (
+    <div>
+      <Form />
+    </div>
+  )
+}
 
-ReactDOM.render(test, document.getElementById('app'))
+ReactDOM.render(<App />, document.getElementById('app'))
