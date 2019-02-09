@@ -10,16 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zillow-talk-hrsf110/steve-component-agent-contact.git"
+    "url": "git+https://github.com/xillow-talk-hrsf110/steve-component-agent-contact.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zillow-talk-hrsf110/steve-component-agent-contact/issues"
+    "url": "https://github.com/xillow-talk-hrsf110/steve-component-agent-contact/issues"
   },
-  "homepage": "https://github.com/zillow-talk-hrsf110/steve-component-agent-contact#readme",
+  "homepage": "https://github.com/xillow-talk-hrsf110/steve-component-agent-contact#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "eslint-config-airbnb": "^17.1.0",
     "express": "^4.16.4",
     "path": "^0.12.7",
     "webpack": "^4.29.3",
@@ -31,6 +32,12 @@
     "@babel/preset-env": "^7.3.1",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.5",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
     "nodemon": "^1.18.9"
   }
 }
