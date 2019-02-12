@@ -2,7 +2,7 @@ DROP DATABASE IF EXISTS agents;
 CREATE DATABASE IF NOT EXISTS agents;
 USE agents;
 
-DROP TABLE IF EXISTS listedAgent, premierAgents;
+-- DROP TABLE IF EXISTS listedAgent, premierAgents;
 
 CREATE TABLE listedAgent(
   id INT NOT NULL AUTO_INCREMENT,
