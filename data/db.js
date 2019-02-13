@@ -1,7 +1,7 @@
 const mysql = require('mysql');
 
 const connection = mysql.createConnection({
-  // host: 'localhost',
+  host: 'localhost',
   user: 'root',
   password: 'Password1!',
   database: 'agents',
@@ -10,7 +10,6 @@ const connection = mysql.createConnection({
 connection.connect();
 
 const getListedAgent = (houseId, callback) => {
-  console.log('reached');
   connection.query(`SELECT * FROM listedAgent WHERE house_id = ${houseId}`, (err, data) => {
     if (err) {
       console.log('RECEIVING LIST AGENT FAILED', err);
