@@ -9,9 +9,10 @@ const PORT = 6969;
 app.use(express.static(path.resolve(__dirname, '../client/dist')));
 app.use(bodyParser.json());
 
-app.get('/houseId/listedAgent', (req, res) => {
-  const houseId = req.body;
-  db.getListedAgent(101, (err, data) => {
+app.get('/houseId/listedAgent/:houseId', (req, res) => {
+  let houseId = req.params.houseId;
+  console.log(houseId);
+  db.getListedAgent(houseId, (err, data) => {
     if (err) {
       res.sendStatus(404);
     } else {

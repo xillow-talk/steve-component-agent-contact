@@ -1,9 +1,9 @@
 import React from 'react';
 
 
-function ListedAgent() {
+function ListedAgent(props) {
   return (
-    <h3>ListedAgent</h3>
+    <h3>testt</h3>
   )
 }
 
