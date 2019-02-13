@@ -6,6 +6,7 @@ const connection = mysql.createConnection({
   user: 'root',
   password: 'Password1!',
   database: 'agents',
+  multipleStatements: true,
 });
 
 connection.connect();

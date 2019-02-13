@@ -13,7 +13,7 @@ class AllAgents extends React.Component {
   componentDidMount() {
     fetch(`http://localhost:6969/houseId/listedAgent/${this.props.houseId}`)
       .then(response => { return response.json() })
-      .then(console.log(JSON.stringify(response)));
+      .then(response => console.log(JSON.stringify(response)));
   }
 
   render() {
