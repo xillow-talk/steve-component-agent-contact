@@ -13,4 +13,4 @@ function App() {
   )
 }
 
-ReactDOM.render(<App />, document.getElementById('app'))
+ReactDOM.render(<App houseId="101" />, document.getElementById('app'))
