@@ -1,9 +1,13 @@
 import React from 'react';
 
-
-function ListedAgent(props) {
+const ListedAgent = ({ lAgent }) => {
+  // Alias illegal agent_name variable with a html friendly variable
+  const name = lAgent.agent_name;
   return (
-    <h3>testt</h3>
+    <div>
+      <h3>{name}</h3>
+    </div>
+    // <img src={props.lAgent.agent_url}></img>
   )
 }
 

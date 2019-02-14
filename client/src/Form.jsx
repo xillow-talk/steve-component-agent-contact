@@ -28,7 +28,8 @@ class Form extends React.Component {
       email: this.state.information.email,
       message: this.state.information.message,
     }
-    alert('data collected and submitted: ' + data.name);
+    alert('data collected and submitted: ' + data);
+    console.log(data);
     //post request here:
     //saveClientInfo(data);
   };
@@ -39,19 +40,19 @@ class Form extends React.Component {
         <form onSubmit={this.handleSubmit}>
           <label>
             Name:
-          <input type="text" value={this.state.value} onChange={this.handleChange} />
+          <input type="text" name="name" value={this.state.value} onChange={this.handleChange} />
           </label>
           <label>
             number:
-          <input type="text" value={this.state.value} onChange={this.handleChange} />
+          <input type="text" name="number" value={this.state.value} onChange={this.handleChange} />
           </label>
           <label>
             Email:
-          <input type="text" value={this.state.value} onChange={this.handleChange} />
+          <input type="text" name="email" value={this.state.value} onChange={this.handleChange} />
           </label>
           <label>
             Message:
-          <input type="text" value={this.state.value} onChange={this.handleChange} />
+          <input type="text" name="message" value={this.state.value} onChange={this.handleChange} />
           </label>
           <input type="submit" value="Contact Agent" />
         </form>
