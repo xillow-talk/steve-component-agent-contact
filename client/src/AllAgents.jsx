@@ -8,6 +8,9 @@ class AllAgents extends React.Component {
 
     this.state = {
       lAgent: {},
+      pAgent0: {},
+      pAgent1: {},
+      pAgent2: {},
     };
   }
   componentDidMount() {
@@ -15,35 +18,38 @@ class AllAgents extends React.Component {
       .then(response => { return response.json() })
       .then(response => { return JSON.stringify(response) })
       .then(response => {
-        // Constructor Method
-        // const agentConstructor = () => {
-        //   const temp = JSON.parse(response)[0];
-        //   return {
-        //     name: temp.agent_name
-        //   }
-        // }
-        // const agent = agentConstructor();
-
-        // Alias Method
-        const agent = JSON.parse(response)[0];
-        console.log('agent:', agent)
-
 
         // response is of type string
         // [{"id":101,"house_id":100,"agent_name":"Arch Weber","agent_company":"Bechtelar, Gislason and Schuppe","agent_phone":"(236) 089-1945 x509","agent_url":"http://lorempixel.com/640/480/people
-        this.setState({ lAgent: agent })
-        return response;
+        const listAgent = JSON.parse(response)[0];
+        this.setState({ lAgent: listAgent });
+      });
+    fetch(`http://localhost:6969/houseId/premierAgents`)
+      .then(response => { return response.json() })
+      .then(response => { return JSON.stringify(response) })
+      .then(response => {
+        const preAgent0 = JSON.parse(response)[0];
+        const preAgent1 = JSON.parse(response)[1];
+        const preAgent2 = JSON.parse(response)[2];
+        this.setState({
+          pAgent0: preAgent0,
+          pAgent1: preAgent1,
+          pAgent2: preAgent2,
+        });
       });
   }
 
   render() {
     // const { lAgent } = this.state;
+    // const pAgent0 = this.state.pAgents[0];
+    // const pAgent1 = this.state.pAgents[1];
+    // const pAgent2 = this.state.pAgents[2];
     return (
       <div>
         <ListedAgent lAgent={this.state.lAgent} />
-        <PremierAgent />
-        <PremierAgent />
-        <PremierAgent />
+        <PremierAgent pAgents={this.state.pAgent0} />
+        <PremierAgent pAgents={this.state.pAgent1} />
+        <PremierAgent pAgents={this.state.pAgent2} />
       </div>
     )
   }

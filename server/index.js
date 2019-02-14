@@ -11,7 +11,6 @@ app.use(bodyParser.json());
 
 app.get('/houseId/listedAgent/:houseId', (req, res) => {
   let houseId = req.params.houseId;
-  console.log(houseId);
   db.getListedAgent(houseId, (err, data) => {
     if (err) {
       res.sendStatus(404);
