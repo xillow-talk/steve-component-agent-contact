@@ -18,12 +18,14 @@ const createData = () => {
       houseId: i,
       name: faker.name.findName(),
       company: faker.company.companyName(),
+      reviews: faker.random.number(500),
+      recentSales: faker.random.number(500),
       phone: faker.phone.phoneNumber(),
       url: faker.image.people(),
     };
     const lQuery = `
-    INSERT INTO listedAgent (houseId, name, company, phone, url)
-    VALUES (${lAgent.houseId}, "${lAgent.name}", "${lAgent.company}", "${lAgent.phone}", "${lAgent.url}")
+    INSERT INTO listedAgent (houseId, name, company, reviews, recentSales, phone, url)
+    VALUES (${lAgent.houseId}, "${lAgent.name}", "${lAgent.company}", ${lAgent.reviews}, ${lAgent.recentSales}, "${lAgent.phone}", "${lAgent.url}")
   `;
     connection.query(lQuery, (err, data) => {
       if (i === 100) { console.log('listed agents data entered') }
@@ -53,13 +55,15 @@ const createData = () => {
     });
   };
 
-  connection.query('DROP TABLE IF EXISTS listedAgent, premierAgents;', (err, data) => {
+  connection.query('DROP DATABASE agents; CREATE DATABASE agents; USE agents;', (err, data) => {
     connection.query(`
       CREATE TABLE listedAgent (
         id INT AUTO_INCREMENT,
         houseId INT,
         name VARCHAR(100),
         company VARCHAR(100),
+        reviews INT,
+        recentSales INT,
         phone VARCHAR(50),
         url VARCHAR(255),
         PRIMARY KEY (id)
