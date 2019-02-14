@@ -40,10 +40,6 @@ class AllAgents extends React.Component {
   }
 
   render() {
-    // const { lAgent } = this.state;
-    // const pAgent0 = this.state.pAgents[0];
-    // const pAgent1 = this.state.pAgents[1];
-    // const pAgent2 = this.state.pAgents[2];
     return (
       <div>
         <ListedAgent lAgent={this.state.lAgent} />

@@ -2,7 +2,7 @@ import React from 'react';
 
 const PremierAgent = ({ pAgents }) => {
   return (
-    <div>
+    <div style={{ display: flex, flexDirection: row }}>
       <img style={{ height: "50px" }} src={pAgents.url}></img>
       <p>{pAgents.name}</p>
       <span>({pAgents.reviews})</span>

@@ -39,20 +39,16 @@ class Form extends React.Component {
       <div>
         <form onSubmit={this.handleSubmit}>
           <label>
-            Name:
-          <input type="text" name="name" value={this.state.value} onChange={this.handleChange} />
+            <input type="text" name="name" placeholder="Your Name" value={this.state.value} onChange={this.handleChange} />
           </label>
           <label>
-            number:
-          <input type="text" name="number" value={this.state.value} onChange={this.handleChange} />
+            <input type="text" name="number" placeholder="Phone" value={this.state.value} onChange={this.handleChange} />
           </label>
           <label>
-            Email:
-          <input type="text" name="email" value={this.state.value} onChange={this.handleChange} />
+            <input type="text" name="email" Placeholder="Email" value={this.state.value} onChange={this.handleChange} />
           </label>
           <label>
-            Message:
-          <input type="text" name="message" value={this.state.value} onChange={this.handleChange} />
+            <input type="text" name="message" value={this.state.value} onChange={this.handleChange} placeholder="I am interested in 6760 Mission St, Daly City, CA 94014." />
           </label>
           <input type="submit" value="Contact Agent" />
         </form>
