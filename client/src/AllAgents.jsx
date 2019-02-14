@@ -37,10 +37,10 @@ class AllAgents extends React.Component {
   }
 
   render() {
-    const { lAgent } = this.state;
+    // const { lAgent } = this.state;
     return (
       <div>
-        <ListedAgent lAgent={lAgent} />
+        <ListedAgent lAgent={this.state.lAgent} />
         <PremierAgent />
         <PremierAgent />
         <PremierAgent />

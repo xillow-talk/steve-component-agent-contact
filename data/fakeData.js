@@ -15,29 +15,29 @@ const createData = () => {
   let i = 0;
   const iterator = () => {
     const lAgent = {
-      house_id: i,
-      agent_name: faker.name.findName(),
-      agent_company: faker.company.companyName(),
-      agent_phone: faker.phone.phoneNumber(),
-      agent_url: faker.image.people(),
+      houseId: i,
+      name: faker.name.findName(),
+      company: faker.company.companyName(),
+      phone: faker.phone.phoneNumber(),
+      url: faker.image.people(),
     };
     const lQuery = `
-    INSERT INTO listedAgent (house_id, agent_name, agent_company, agent_phone, agent_url)
-    VALUES (${lAgent.house_id}, "${lAgent.agent_name}", "${lAgent.agent_company}", "${lAgent.agent_phone}", "${lAgent.agent_url}")
+    INSERT INTO listedAgent (houseId, name, company, phone, url)
+    VALUES (${lAgent.houseId}, "${lAgent.name}", "${lAgent.company}", "${lAgent.phone}", "${lAgent.url}")
   `;
     connection.query(lQuery, (err, data) => {
       if (i === 100) { console.log('listed agents data entered') }
     });
     const pAgent = {
-      agent_name: faker.name.findName(),
+      name: faker.name.findName(),
       reviews: faker.random.number(500),
-      recent_sales: faker.random.number(500),
-      agent_phone: faker.phone.phoneNumber(),
-      agent_url: faker.image.people(),
+      recentSales: faker.random.number(500),
+      phone: faker.phone.phoneNumber(),
+      url: faker.image.people(),
     };
     const pQuery = `
-      INSERT INTO premierAgents (agent_name, reviews, recent_sales, agent_phone, agent_url)
-      VALUES ("${pAgent.agent_name}", ${pAgent.reviews}, ${pAgent.recent_sales}, "${pAgent.agent_phone}", "${pAgent.agent_url}")
+      INSERT INTO premierAgents (name, reviews, recentSales, phone, url)
+      VALUES ("${pAgent.name}", ${pAgent.reviews}, ${pAgent.recentSales}, "${pAgent.phone}", "${pAgent.url}")
     `;
 
     connection.query(pQuery, (err, data) => {
@@ -57,21 +57,21 @@ const createData = () => {
     connection.query(`
       CREATE TABLE listedAgent (
         id INT AUTO_INCREMENT,
-        house_id INT,
-        agent_name VARCHAR(100),
-        agent_company VARCHAR(100),
-        agent_phone VARCHAR(50),
-        agent_url VARCHAR(255),
+        houseId INT,
+        name VARCHAR(100),
+        company VARCHAR(100),
+        phone VARCHAR(50),
+        url VARCHAR(255),
         PRIMARY KEY (id)
       );`, (err, data) => {
         connection.query(`
         CREATE TABLE premierAgents (
           id INT AUTO_INCREMENT,
-          agent_name VARCHAR(100),
+          name VARCHAR(100),
           reviews INT,
-          recent_sales INT,
-          agent_phone VARCHAR(50),
-          agent_url VARCHAR(255),
+          recentSales INT,
+          phone VARCHAR(50),
+          url VARCHAR(255),
           PRIMARY KEY (id)
         );`, (err, data) => { iterator(); });
       })

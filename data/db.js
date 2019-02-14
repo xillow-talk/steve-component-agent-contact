@@ -10,7 +10,7 @@ const connection = mysql.createConnection({
 connection.connect();
 
 const getListedAgent = (houseId, callback) => {
-  connection.query(`SELECT * FROM listedAgent WHERE house_id = ${houseId}`, (err, data) => {
+  connection.query(`SELECT * FROM listedAgent WHERE houseId = ${houseId}`, (err, data) => {
     if (err) {
       console.log('RECEIVING LIST AGENT FAILED', err);
     } else {

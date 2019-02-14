@@ -2,7 +2,7 @@ import React from 'react';
 
 const ListedAgent = ({ lAgent }) => {
   // Alias illegal agent_name variable with a html friendly variable
-  const name = lAgent.agent_name;
+  const name = lAgent.name;
   return (
     <div>
       <h3>{name}</h3>
