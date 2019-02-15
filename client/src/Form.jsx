@@ -45,7 +45,7 @@ class Form extends React.Component {
             <input type="text" name="number" placeholder="Phone" value={this.state.value} onChange={this.handleChange} />
           </label>
           <label>
-            <input type="text" name="email" Placeholder="Email" value={this.state.value} onChange={this.handleChange} />
+            <input type="text" name="email" placeholder="Email" value={this.state.value} onChange={this.handleChange} />
           </label>
           <label>
             <input type="text" name="message" value={this.state.value} onChange={this.handleChange} placeholder="I am interested in 6760 Mission St, Daly City, CA 94014." />
