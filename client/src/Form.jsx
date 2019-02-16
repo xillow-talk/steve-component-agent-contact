@@ -36,6 +36,32 @@ const Input = styled.input`
   text-align: start;
 `;
 
+const Button = styled.button`
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  padding: .4em .67em;
+  text-align: center;
+  white-space: normal;
+  background-color: #1b5098;
+  background: linear-gradient(to top,#0074e4,#1b5098);
+  background-repeat: repeat-x;
+  color: #fff;
+  border-color: transparent;
+  box-shadow: none;
+  outline: 0;
+`;
+
+const ContactAgent = styled.span`
+box-sizing: border-box;
+color: #fff;
+text-align: center;
+white-space: normal;
+line-height: 1.5;
+font: inherit;
+`;
 //Component
 class Form extends React.Component {
   constructor(props) {
@@ -75,19 +101,13 @@ class Form extends React.Component {
     return (
       <FormContainer>
         <form onSubmit={this.handleSubmit}>
-          <label>
-            <Input type="text" name="name" placeholder="Your Name" value={this.state.value} onChange={this.handleChange} />
-          </label>
-          <label>
-            <Input type="text" name="number" placeholder="Phone" value={this.state.value} onChange={this.handleChange} />
-          </label>
-          <label>
-            <Input type="text" name="email" placeholder="Email" value={this.state.value} onChange={this.handleChange} />
-          </label>
-          <label>
-            <Input type="text" name="message" value={this.state.value} onChange={this.handleChange} placeholder="I am interested in 6760 Mission St, Daly City, CA 94014." />
-          </label>
-          <input type="submit" value="Contact Agent" />
+          <Input type="text" name="name" placeholder="Your Name" value={this.state.value} onChange={this.handleChange} />
+          <Input type="text" name="number" placeholder="Phone" value={this.state.value} onChange={this.handleChange} />
+          <Input type="text" name="email" placeholder="Email" value={this.state.value} onChange={this.handleChange} />
+          <Input type="text" name="message" value={this.state.value} onChange={this.handleChange} placeholder="I am interested in 6760 Mission St, Daly City, CA 94014." />
+          <Button type="submit">
+            <ContactAgent>Contact Agent</ContactAgent>
+          </Button>
         </form>
       </FormContainer>
     )
