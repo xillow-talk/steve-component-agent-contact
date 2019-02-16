@@ -18,10 +18,32 @@ const Infobox = styled.div`
   font-family: Gotham,gotham,Verdana,sans-serif;
 `;
 
+const Radio = styled.input`
+top: 20px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+
+`;
+
+const Badge = styled.span`
+display: inline-block;
+    max-width: 45px;
+    padding: 1px 2px;
+    font-family: arial,sans-serif;
+    font-size: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 8px;
+    border-radius: 2px;
+    border: 1px solid #eee;
+    color: #aaa;
+`;
+
 
 const PremierAgent = ({ pAgents }) => {
   return (
     <AgentContainer>
+      <Radio type="radio" />
       <img style={{ height: "50px" }} src={pAgents.url}></img>
       <Infobox>
         <p>{pAgents.name}</p>
@@ -31,6 +53,7 @@ const PremierAgent = ({ pAgents }) => {
         <span>Recent sales</span>
         <p>{pAgents.phone}</p>
       </Infobox>
+      <Badge>Premier Agent</Badge>
     </AgentContainer>
 
   )

@@ -62,6 +62,12 @@ white-space: normal;
 line-height: 1.5;
 font: inherit;
 `;
+
+const FinanceInfo = styled.input`
+content: "";
+border: 1px solid #aaa;
+background-color: #fff;
+`;
 //Component
 class Form extends React.Component {
   constructor(props) {
@@ -109,6 +115,8 @@ class Form extends React.Component {
             <ContactAgent>Contact Agent</ContactAgent>
           </Button>
         </form>
+        <FinanceInfo type="checkbox" ></FinanceInfo>
+
       </FormContainer>
     )
   }
