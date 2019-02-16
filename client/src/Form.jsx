@@ -12,19 +12,18 @@ const FormContainer = styled.div`
 
 const Input = styled.input`
   padding-left: 25px;
+  margin-bottom: 5px;
   min-height: 30px;
   font-size: .86666667rem;
   height: 30px;
   line-height: 1.5em;
   width: 100%;
-  padding: 4px 6px 2px;
   border: 1px solid #aaa;
   background-color: #fff;
   box-shadow: inset 0 2px 2px #fafafa, 0 0 0 #62aef7;
   box-sizing: border-box;
   color: inherit;
   font: inherit;
-  margin: 0;
 
   text-rendering: auto;
   letter-spacing: normal;
@@ -68,6 +67,7 @@ content: "";
 border: 1px solid #aaa;
 background-color: #fff;
 `;
+
 //Component
 class Form extends React.Component {
   constructor(props) {
@@ -103,6 +103,7 @@ class Form extends React.Component {
     //saveClientInfo(data);
   };
 
+
   render() {
     return (
       <FormContainer>
@@ -111,6 +112,7 @@ class Form extends React.Component {
           <Input type="text" name="number" placeholder="Phone" value={this.state.value} onChange={this.handleChange} />
           <Input type="text" name="email" placeholder="Email" value={this.state.value} onChange={this.handleChange} />
           <Input type="text" name="message" value={this.state.value} onChange={this.handleChange} placeholder="I am interested in 6760 Mission St, Daly City, CA 94014." />
+
           <Button type="submit">
             <ContactAgent>Contact Agent</ContactAgent>
           </Button>

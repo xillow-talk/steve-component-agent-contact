@@ -32,13 +32,28 @@ display: inline-block;
     color: #aaa;
 `;
 
+const Name = styled.span`
+color: #62aef7;
+display: block;
+font-family: Gotham,gotham,Verdana,sans-serif;
+`;
+
+const Stars = styled.span`
+content: "\e044\e044\e044\e044\e044";
+color: #03c04a;
+font-family: zmod-icon-set1;
+speak: none;
+letter-spacing: 1px;
+`;
+
 const ListedAgent = ({ lAgent }) => {
   return (
     <AgentContainer>
       <input type="radio" />
       <img style={{ height: "50px" }} src={lAgent.url}></img>
       <Infobox>
-        <span>{lAgent.name}</span>
+        <Name>{lAgent.name}</Name>
+        <Stars></Stars>
         <span>({lAgent.reviews})</span>
         <span>{lAgent.recentSales}</span>
         <span>Recent sales</span>
