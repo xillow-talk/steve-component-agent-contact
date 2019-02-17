@@ -36,6 +36,13 @@ const Infobox = styled.div`
   word-spacing: normal;
   text-rendering: auto;
   font-family: Gotham,gotham,Verdana,sans-serif;
+
+  .phoneNumber {
+    font-size: 14px;
+    display: block;
+    font-family: Gotham,gotham,Verdana,sans-serif;
+    color: #444;
+  }
 `;
 
 const Badge = styled.span`
@@ -43,7 +50,7 @@ display: inline-block;
     max-width: 45px;
     padding: 1px 2px;
     font-family: arial,sans-serif;
-    font-size: 8px;
+    font-size: 9px;
     text-transform: uppercase;
     text-align: center;
     line-height: 8px;
@@ -55,6 +62,7 @@ display: inline-block;
 const Name = styled.span`
 color: #0074e4;
 display: block;
+font-size: 15px;
 font-family: Gotham,gotham,Verdana,sans-serif;
 `;
 
@@ -62,13 +70,14 @@ const ReviewContainer = styled.span`
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-margin-bottom: 3px;
+margin-bottom: 3px;  //self
   .starContainer {
     display: flex;
     flex-direction: row;
     color: #03c04a;
   }
   .reviewColor {
+    font-size: 15px;
     color: #0074e4;
   }
 `;
@@ -77,10 +86,11 @@ const SalesContainer = styled.span`
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-margin-bottom: 3px;
+margin-bottom: 3px;  //self
   .salesCount {
     display: inline-block;
     text-align: center;
+    font-size: 14px;
     color: #fff;
     background-color: #1b5098;
     padding: 2px;
@@ -91,7 +101,7 @@ margin-bottom: 3px;
     height: auto;
   }
   .salesText {
-    font-size: 15px;
+    font-size: 14px;  //self
     color: #444;
   }
 `;
@@ -118,10 +128,10 @@ const ListedAgent = ({ lAgent }) => {
             <span className="salesCount">{lAgent.recentSales}</span>
             <span className="salesText">Recent sales</span>
           </SalesContainer>
-          <a>{lAgent.phone}</a>
+          <a className="phoneNumber">{lAgent.phone}</a>
         </Infobox>
       </div>
-      <Badge>Listed Agent</Badge>
+      <Badge>Listing Agent</Badge>
     </AgentContainer>
 
   )

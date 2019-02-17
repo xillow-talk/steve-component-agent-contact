@@ -12,7 +12,7 @@ const FormContainer = styled.div`
 
 const Input = styled.input`
   padding-left: 25px;
-  margin-bottom: 5px;
+  margin-bottom: 7px; //self
   min-height: 30px;
   font-size: .86666667rem;
   height: 30px;

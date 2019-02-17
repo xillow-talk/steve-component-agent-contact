@@ -29,6 +29,12 @@ const Infobox = styled.div`
   word-spacing: normal;
   text-rendering: auto;
   font-family: Gotham,gotham,Verdana,sans-serif;
+  .phoneNumber {
+    font-size: 14px;
+    display: block;
+    font-family: Gotham,gotham,Verdana,sans-serif;
+    color: #444;
+  }
 `;
 
 const Badge = styled.span`
@@ -36,7 +42,7 @@ display: inline-block;
     max-width: 45px;
     padding: 1px 2px;
     font-family: arial,sans-serif;
-    font-size: 8px;
+    font-size: 9px;
     text-transform: uppercase;
     text-align: center;
     line-height: 8px;
@@ -48,6 +54,7 @@ display: inline-block;
 const Name = styled.span`
 color: #0074e4;
 display: block;
+font-size: 15px;
 font-family: Gotham,gotham,Verdana,sans-serif;
 `;
 
@@ -63,6 +70,7 @@ margin-bottom: 3px;  //self
   }
   .reviewColor {
     color: #0074e4;
+    font-size: 15px;
   }
 `;
 
@@ -74,6 +82,7 @@ margin-bottom: 3px;  //self
   .salesCount {
     display: inline-block;
     text-align: center;
+    font-size: 14px;
     color: #fff;
     background-color: #1b5098;
     padding: 2px;
@@ -84,7 +93,7 @@ margin-bottom: 3px;  //self
     height: auto;
   }
   .salesText {
-    font-size: 15px;  //self
+    font-size: 14px;  //self
     color: #444;
   }
 `;
@@ -112,7 +121,7 @@ const PremierAgent = ({ pAgents }) => {
             <span className="salesCount">{pAgents.recentSales}</span>
             <span className="salesText">Recent sales</span>
           </SalesContainer>
-          <a>{pAgents.phone}</a>
+          <a className="phoneNumber">{pAgents.phone}</a>
         </Infobox>
       </div>
       <Badge>Premier Agent</Badge>
