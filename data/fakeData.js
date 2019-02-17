@@ -1,6 +1,7 @@
 const faker = require('faker');
 const mysql = require('mysql');
 
+
 const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
@@ -20,8 +21,8 @@ const createData = () => {
       company: faker.company.companyName(),
       reviews: faker.random.number(100),
       recentSales: faker.random.number(80),
-      phone: faker.phone.phoneNumber(),
-      url: faker.image.people(),
+      phone: faker.phone.phoneNumberFormat(1),
+      url: faker.image.avatar(),
     };
     const lQuery = `
     INSERT INTO listedAgent (houseId, name, company, reviews, recentSales, phone, url)
@@ -34,8 +35,8 @@ const createData = () => {
       name: faker.name.findName(),
       reviews: faker.random.number(100),
       recentSales: faker.random.number(80),
-      phone: faker.phone.phoneNumber(),
-      url: faker.image.people(),
+      phone: faker.phone.phoneNumberFormat(1),
+      url: faker.image.avatar(),
     };
     const pQuery = `
       INSERT INTO premierAgents (name, reviews, recentSales, phone, url)
