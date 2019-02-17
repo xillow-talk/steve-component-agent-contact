@@ -25,7 +25,7 @@ padding: 10px;
 
 const FinePrint = styled.p`
 margin-top: 10px;
-font-size: 16px;
+font-size: 13px;  //self
 font-family: Gotham,gotham,Verdana,sans-serif;
 line-height: 1.5;
     font-weight: 400;

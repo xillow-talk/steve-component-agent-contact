@@ -1,7 +1,14 @@
 import React from 'react';
+import styled from 'styled-components';
 import ListedAgent from './ListedAgent.jsx';
 import PremierAgent from './PremierAgent.jsx';
 
+const Ad = styled.a`
+font-size: 12;
+font-weight: 300;
+text-decoration: none;
+color: #0074e4;
+`;
 class AllAgents extends React.Component {
   constructor(props) {
     super(props);
@@ -46,6 +53,7 @@ class AllAgents extends React.Component {
         <PremierAgent pAgents={this.state.pAgent0} />
         <PremierAgent pAgents={this.state.pAgent1} />
         <PremierAgent pAgents={this.state.pAgent2} />
+        <Ad>Learn how to appear as the agent above</Ad>
       </div>
     )
   }

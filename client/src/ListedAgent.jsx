@@ -7,12 +7,26 @@ const AgentContainer = styled.div`
   justify-content: space-between;
   flex-wrap: nowrap;
   flex-diretion: row;
+  margin-bottom: 10px;
 
   .left {
     display: flex;
     align-items: center;
 
   }
+`;
+
+const Radio = styled.input`
+  content: "";
+  border: 1px solid #aaa;
+  background-color: #fff;
+  border-radius: 99px;
+`;
+
+const Avatar = styled.img`
+  height: 60px;
+  width: 60px;
+  border-radius: 5px;
 `;
 
 const Infobox = styled.div`
@@ -48,6 +62,7 @@ const ReviewContainer = styled.span`
 display: flex;
 flex-direction: row;
 justify-content: space-between;
+margin-bottom: 3px;
   .starContainer {
     display: flex;
     flex-direction: row;
@@ -62,6 +77,7 @@ const SalesContainer = styled.span`
 display: flex;
 flex-direction: row;
 justify-content: space-between;
+margin-bottom: 3px;
   .salesCount {
     display: inline-block;
     text-align: center;
@@ -75,6 +91,7 @@ justify-content: space-between;
     height: auto;
   }
   .salesText {
+    font-size: 15px;
     color: #444;
   }
 `;
@@ -83,8 +100,8 @@ const ListedAgent = ({ lAgent }) => {
   return (
     <AgentContainer>
       <div className="left">
-        <input type="radio" />
-        <img style={{ height: "60px", width: "60px" }} src={lAgent.url}></img>
+        <Radio type="radio"></Radio>
+        <Avatar src={lAgent.url}></Avatar>
         <Infobox>
           <Name>{lAgent.name}</Name>
           <ReviewContainer>

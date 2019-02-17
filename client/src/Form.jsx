@@ -44,22 +44,19 @@ const Button = styled.button`
   padding: .4em .67em;
   text-align: center;
   white-space: normal;
-  background-color: #1b5098;
-  background: linear-gradient(to top,#0074e4,#1b5098);
-  background-repeat: repeat-x;
+  background: #0074e4;
   color: #fff;
-  border-color: transparent;
-  box-shadow: none;
-  outline: 0;
+  margin-bottom: 10px;
 `;
 
 const ContactAgent = styled.span`
+font-size: 18px; //self
 box-sizing: border-box;
 color: #fff;
 text-align: center;
 white-space: normal;
 line-height: 1.5;
-font: inherit;
+
 `;
 
 const FinanceInfo = styled.input`

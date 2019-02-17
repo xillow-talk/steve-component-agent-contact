@@ -7,12 +7,19 @@ const AgentContainer = styled.div`
   justify-content: space-between;
   flex-wrap: nowrap;
   flex-diretion: row;
+  margin-bottom: 10px;
 
   .left {
     display: flex;
     align-items: center;
 
   }
+`;
+
+const Avatar = styled.img`
+  height: 60px;
+  width: 60px;
+  border-radius: 5px;
 `;
 
 const Infobox = styled.div`
@@ -48,6 +55,7 @@ const ReviewContainer = styled.span`
 display: flex;
 flex-direction: row;
 justify-content: space-between;
+margin-bottom: 3px;  //self
   .starContainer {
     display: flex;
     flex-direction: row;
@@ -62,6 +70,7 @@ const SalesContainer = styled.span`
 display: flex;
 flex-direction: row;
 justify-content: space-between;
+margin-bottom: 3px;  //self
   .salesCount {
     display: inline-block;
     text-align: center;
@@ -75,6 +84,7 @@ justify-content: space-between;
     height: auto;
   }
   .salesText {
+    font-size: 15px;  //self
     color: #444;
   }
 `;
@@ -85,7 +95,7 @@ const PremierAgent = ({ pAgents }) => {
     <AgentContainer>
       <div className="left">
         <input type="radio" />
-        <img style={{ height: "60px", width: "60px" }} src={pAgents.url}></img>
+        <Avatar src={pAgents.url}></Avatar>
         <Infobox>
           <Name>{pAgents.name}</Name>
           <ReviewContainer>
@@ -106,7 +116,7 @@ const PremierAgent = ({ pAgents }) => {
         </Infobox>
       </div>
       <Badge>Premier Agent</Badge>
-    </AgentContainer>
+    </AgentContainer >
 
   )
 }
