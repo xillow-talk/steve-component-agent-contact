@@ -39,17 +39,44 @@ display: inline-block;
 `;
 
 const Name = styled.span`
-color: #62aef7;
+color: #0074e4;
 display: block;
 font-family: Gotham,gotham,Verdana,sans-serif;
 `;
 
-const Stars = styled.span`
-content: "\e044\e044\e044\e044\e044";
-color: #03c04a;
-font-family: zmod-icon-set1;
-speak: none;
-letter-spacing: 1px;
+const ReviewContainer = styled.span`
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+  .starContainer {
+    display: flex;
+    flex-direction: row;
+    color: #03c04a;
+  }
+  .reviewColor {
+    color: #0074e4;
+  }
+`;
+
+const SalesContainer = styled.span`
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+  .salesCount {
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    background-color: #1b5098;
+    padding: 2px;
+    min-width: 20px;
+    font-weight: 700;
+    border-radius: 2px;
+    line-height: 13px;
+    height: auto;
+  }
+  .salesText {
+    color: #444;
+  }
 `;
 
 const ListedAgent = ({ lAgent }) => {
@@ -57,15 +84,24 @@ const ListedAgent = ({ lAgent }) => {
     <AgentContainer>
       <div className="left">
         <input type="radio" />
-        <img style={{ height: "50px" }} src={lAgent.url}></img>
+        <img style={{ height: "60px", width: "60px" }} src={lAgent.url}></img>
         <Infobox>
           <Name>{lAgent.name}</Name>
-          <i class="fas fa-star"></i>
-          <a class="cf-rvw-stars-link rating" href="/profile/sugueymelgar/#reviews"><span class="cf-rvw-stars zsg-rating zsg-rating_500"></span></a>
-          <span>({lAgent.reviews})</span>
-          <span>{lAgent.recentSales}</span>
-          <span>Recent sales</span>
-          <p>{lAgent.phone}</p>
+          <ReviewContainer>
+            <span className="starContainer">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </span>
+            <span>(<a className="reviewColor">{lAgent.reviews}</a>)</span>
+          </ReviewContainer>
+          <SalesContainer>
+            <span className="salesCount">{lAgent.recentSales}</span>
+            <span className="salesText">Recent sales</span>
+          </SalesContainer>
+          <a>{lAgent.phone}</a>
         </Infobox>
       </div>
       <Badge>Listed Agent</Badge>
