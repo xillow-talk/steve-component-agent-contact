@@ -18,8 +18,8 @@ const createData = () => {
       houseId: i,
       name: faker.name.findName(),
       company: faker.company.companyName(),
-      reviews: faker.random.number(500),
-      recentSales: faker.random.number(500),
+      reviews: faker.random.number(100),
+      recentSales: faker.random.number(80),
       phone: faker.phone.phoneNumber(),
       url: faker.image.people(),
     };
@@ -32,8 +32,8 @@ const createData = () => {
     });
     const pAgent = {
       name: faker.name.findName(),
-      reviews: faker.random.number(500),
-      recentSales: faker.random.number(500),
+      reviews: faker.random.number(100),
+      recentSales: faker.random.number(80),
       phone: faker.phone.phoneNumber(),
       url: faker.image.people(),
     };
