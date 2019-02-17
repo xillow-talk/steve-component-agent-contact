@@ -65,7 +65,12 @@ font: inherit;
 const FinanceInfo = styled.input`
 content: "";
 border: 1px solid #aaa;
+border-color: #666;
 background-color: #fff;
+`;
+
+const FinanceSpan = styled.span`
+color: #444;
 `;
 
 //Component
@@ -118,7 +123,7 @@ class Form extends React.Component {
           </Button>
         </form>
         <FinanceInfo type="checkbox" ></FinanceInfo>
-
+        <FinanceSpan>I want financing information</FinanceSpan>
       </FormContainer>
     )
   }

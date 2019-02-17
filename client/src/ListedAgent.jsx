@@ -4,9 +4,15 @@ import styled from 'styled-components';
 const AgentContainer = styled.div`
   display: flex;
   align-items: flex-start;
-  // justify-content: space-between;
+  justify-content: space-between;
   flex-wrap: nowrap;
   flex-diretion: row;
+
+  .left {
+    display: flex;
+    align-items: center;
+
+  }
 `;
 
 const Infobox = styled.div`
@@ -49,16 +55,19 @@ letter-spacing: 1px;
 const ListedAgent = ({ lAgent }) => {
   return (
     <AgentContainer>
-      <input type="radio" />
-      <img style={{ height: "50px" }} src={lAgent.url}></img>
-      <Infobox>
-        <Name>{lAgent.name}</Name>
-        <Stars></Stars>
-        <span>({lAgent.reviews})</span>
-        <span>{lAgent.recentSales}</span>
-        <span>Recent sales</span>
-        <p>{lAgent.phone}</p>
-      </Infobox>
+      <div className="left">
+        <input type="radio" />
+        <img style={{ height: "50px" }} src={lAgent.url}></img>
+        <Infobox>
+          <Name>{lAgent.name}</Name>
+          <i class="fas fa-star"></i>
+          <a class="cf-rvw-stars-link rating" href="/profile/sugueymelgar/#reviews"><span class="cf-rvw-stars zsg-rating zsg-rating_500"></span></a>
+          <span>({lAgent.reviews})</span>
+          <span>{lAgent.recentSales}</span>
+          <span>Recent sales</span>
+          <p>{lAgent.phone}</p>
+        </Infobox>
+      </div>
       <Badge>Listed Agent</Badge>
     </AgentContainer>
 
