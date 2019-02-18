@@ -1,26 +1,25 @@
-DROP DATABASE IF EXISTS agents;
-CREATE DATABASE IF NOT EXISTS agents;
+DROP DATABASE agents;
+CREATE DATABASE agents;
 USE agents;
 
-DROP TABLE IF EXISTS listedAgent, premierAgents;
-
 CREATE TABLE listedAgent (
-  id INT NOT NULL AUTO_INCREMENT,
-  house_id INT,
-  agent_name VARCHAR(100),
-  agent_company VARCHAR(100),
-  agent_phone VARCHAR(20),
-  agent_url VARCHAR(255),
-  PRIMARY KEY (id),
-  FOREIGN KEY (house_id),
+  id INT AUTO_INCREMENT,
+  houseId INT,
+  name VARCHAR(100),
+  company VARCHAR(100),
+  reviews INT,
+  recentSales INT,
+  phone VARCHAR(50),
+  url VARCHAR(255),
+  PRIMARY KEY (id)
 );
 
 CREATE TABLE premierAgents (
-  id INT NOT NULL AUTO_INCREMENT,
-  agent_name VARCHAR(100),
+  id INT AUTO_INCREMENT,
+  name VARCHAR(100),
   reviews INT,
-  recent_sales INT,
-  agent_phone VARCHAR(20),
-  agent_url VARCHAR(255),
-  PRIMARY KEY (id),
+  recentSales INT,
+  phone VARCHAR(50),
+  url VARCHAR(255),
+  PRIMARY KEY (id)
 );

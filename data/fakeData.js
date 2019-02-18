@@ -1,33 +1,49 @@
 const faker = require('faker');
 const mysql = require('mysql');
 
+
 const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   password: 'Password1!',
   database: 'agents',
+  multipleStatements: true,
 });
 
 connection.connect();
 
 const createData = () => {
   let i = 0;
-  const results = [];
   const iterator = () => {
-    const pAgent = {
-      agent_name: faker.name.findName(),
-      reviews: faker.random.number(500),
-      recent_sales: faker.random.number(500),
-      agent_phone: faker.phone.phoneNumber(),
-      agent_url: faker.image.people(),
+    const lAgent = {
+      houseId: i,
+      name: faker.name.findName(),
+      company: faker.company.companyName(),
+      reviews: faker.random.number(100),
+      recentSales: faker.random.number(80),
+      phone: faker.phone.phoneNumberFormat(1),
+      url: faker.image.avatar(),
     };
-    const query = `
-      INSERT INTO premierAgents (agent_name, reviews, recent_sales, agent_phone, agent_url)
-      VALUES ("${pAgent.agent_name}", ${pAgent.reviews}, ${pAgent.recent_sales}, "${pAgent.agent_phone}", "${pAgent.agent_url}")
+    const lQuery = `
+    INSERT INTO listedAgent (houseId, name, company, reviews, recentSales, phone, url)
+    VALUES (${lAgent.houseId}, "${lAgent.name}", "${lAgent.company}", ${lAgent.reviews}, ${lAgent.recentSales}, "${lAgent.phone}", "${lAgent.url}")
+  `;
+    connection.query(lQuery, (err, data) => {
+      if (i === 100) { console.log('listed agents data entered') }
+    });
+    const pAgent = {
+      name: faker.name.findName(),
+      reviews: faker.random.number(100),
+      recentSales: faker.random.number(80),
+      phone: faker.phone.phoneNumberFormat(1),
+      url: faker.image.avatar(),
+    };
+    const pQuery = `
+      INSERT INTO premierAgents (name, reviews, recentSales, phone, url)
+      VALUES ("${pAgent.name}", ${pAgent.reviews}, ${pAgent.recentSales}, "${pAgent.phone}", "${pAgent.url}")
     `;
 
-    connection.query(query, (err, data) => {
-      results[i] = data;
+    connection.query(pQuery, (err, data) => {
       if (i < 100) {
         i += 1;
         iterator();
@@ -40,17 +56,31 @@ const createData = () => {
     });
   };
 
-  connection.query('DROP TABLE IF EXISTS listedAgent, premierAgents;', (err, data) => {
-    connection.query(`
-      CREATE TABLE premierAgents (
-        id INT AUTO_INCREMENT,
-        agent_name VARCHAR(100),
-        reviews INT,
-        recent_sales INT,
-        agent_phone VARCHAR(50),
-        agent_url VARCHAR(255),
-        PRIMARY KEY (id)
-      );`, (err, data) => { iterator(); });
-  });
+  connection.query(`
+  DROP DATABASE agents;
+  CREATE DATABASE agents;
+  USE agents;
+
+  CREATE TABLE listedAgent (
+    id INT AUTO_INCREMENT,
+    houseId INT,
+    name VARCHAR(100),
+    company VARCHAR(100),
+    reviews INT,
+    recentSales INT,
+    phone VARCHAR(50),
+    url VARCHAR(255),
+    PRIMARY KEY (id)
+    );
+
+  CREATE TABLE premierAgents (
+    id INT AUTO_INCREMENT,
+    name VARCHAR(100),
+    reviews INT,
+    recentSales INT,
+    phone VARCHAR(50),
+    url VARCHAR(255),
+    PRIMARY KEY (id)
+    );`, (err, data) => { iterator(); });
 };
 createData();
