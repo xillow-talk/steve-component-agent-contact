@@ -56,30 +56,31 @@ const createData = () => {
     });
   };
 
-  connection.query('DROP DATABASE agents; CREATE DATABASE agents; USE agents;', (err, data) => {
-    connection.query(`
-      CREATE TABLE listedAgent (
-        id INT AUTO_INCREMENT,
-        houseId INT,
-        name VARCHAR(100),
-        company VARCHAR(100),
-        reviews INT,
-        recentSales INT,
-        phone VARCHAR(50),
-        url VARCHAR(255),
-        PRIMARY KEY (id)
-      );`, (err, data) => {
-        connection.query(`
-        CREATE TABLE premierAgents (
-          id INT AUTO_INCREMENT,
-          name VARCHAR(100),
-          reviews INT,
-          recentSales INT,
-          phone VARCHAR(50),
-          url VARCHAR(255),
-          PRIMARY KEY (id)
-        );`, (err, data) => { iterator(); });
-      })
-  });
+  connection.query(`
+  DROP DATABASE agents;
+  CREATE DATABASE agents;
+  USE agents;
+
+  CREATE TABLE listedAgent (
+    id INT AUTO_INCREMENT,
+    houseId INT,
+    name VARCHAR(100),
+    company VARCHAR(100),
+    reviews INT,
+    recentSales INT,
+    phone VARCHAR(50),
+    url VARCHAR(255),
+    PRIMARY KEY (id)
+    );
+
+  CREATE TABLE premierAgents (
+    id INT AUTO_INCREMENT,
+    name VARCHAR(100),
+    reviews INT,
+    recentSales INT,
+    phone VARCHAR(50),
+    url VARCHAR(255),
+    PRIMARY KEY (id)
+    );`, (err, data) => { iterator(); });
 };
 createData();
