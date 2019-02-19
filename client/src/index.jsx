@@ -60,3 +60,5 @@ function App(props) {
 }
 
 ReactDOM.render(<App houseId="100" />, document.getElementById('app'))
+
+export default App;
