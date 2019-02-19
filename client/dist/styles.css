@@ -3,15 +3,10 @@
   flex-direction: row;
 }
 
-.top {
-  display: flex;
-  justify-content: center;
-  flex-shrink: 1;
-  size: 20%;
+.right {
+  width: 300px;
+  height: 796px;
 }
 
-.left {
-  size: 50%;
-}
 
 .field-icon { font-family: 'Muli', FontAwesome, sans-serif; }
