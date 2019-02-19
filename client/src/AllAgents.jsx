@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import ListedAgent from './ListedAgent.jsx';
 import PremierAgent from './PremierAgent.jsx';
+import axios from 'axios';
 
 const Ad = styled.a`
 font-size: 12;
@@ -21,23 +22,19 @@ class AllAgents extends React.Component {
     };
   }
   componentDidMount() {
-    fetch(`http://localhost:6969/houseId/listedAgent/${this.props.houseId}`)
-      .then(response => { return response.json() })
-      .then(response => { return JSON.stringify(response) })
+    axios.get(`http://localhost:6969/houseId/listedAgent/${this.props.houseId}`)
       .then(response => {
 
         // response is of type string
         // [{"id":101,"house_id":100,"agent_name":"Arch Weber","agent_company":"Bechtelar, Gislason and Schuppe","agent_phone":"(236) 089-1945 x509","agent_url":"http://lorempixel.com/640/480/people
-        const listAgent = JSON.parse(response)[0];
+        const listAgent = response.data[0];
         this.setState({ lAgent: listAgent });
       });
-    fetch(`http://localhost:6969/houseId/premierAgents`)
-      .then(response => { return response.json() })
-      .then(response => { return JSON.stringify(response) })
+    axios.get(`http://localhost:6969/houseId/premierAgents`)
       .then(response => {
-        const preAgent0 = JSON.parse(response)[0];
-        const preAgent1 = JSON.parse(response)[1];
-        const preAgent2 = JSON.parse(response)[2];
+        const preAgent0 = response.data[0];
+        const preAgent1 = response.data[1];
+        const preAgent2 = response.data[2];
         this.setState({
           pAgent0: preAgent0,
           pAgent1: preAgent1,
