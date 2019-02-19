@@ -2,7 +2,11 @@ import React from 'react';
 import { shallow, mount, render } from 'enzyme';
 import renderer from 'react-test-renderer';
 import 'jest-styled-components';
-import App from '../client/src/index.jsx';
+import AllAgents from '../client/src/AllAgents.jsx';
+import Enzyme from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+import App from '../client/src/AllAgents.jsx';
+Enzyme.configure({ adapter: new Adapter() });
 
 
 
