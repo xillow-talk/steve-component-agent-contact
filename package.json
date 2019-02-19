@@ -4,7 +4,7 @@
   "description": "> Project description",
   "main": "server/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest || true",
     "dev-pack": "webpack --watch",
     "start": "nodemon ./server/index.js",
     "faker": "node ./data/fakeData.js"
@@ -49,11 +49,15 @@
     "eslint-plugin-react": "^7.12.4",
     "faker": "^4.1.0",
     "jest": "^24.1.0",
-    "nodemon": "^1.18.9"
+    "nodemon": "^1.18.9",
+    "react-test-renderer": "^16.8.2"
   },
   "jest": {
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
+    ],
+    "setupFiles": [
+      "./test/enzyme.config.js"
     ]
   }
 }
