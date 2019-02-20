@@ -4,4 +4,4 @@ import App from './App.jsx';
 
 // ReactDOM.render(<App houseId="100" />, document.getElementById('app'))
 
-window.App = App;
+window.AgentContact = App;
