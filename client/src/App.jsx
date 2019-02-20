@@ -17,6 +17,8 @@ const Title = styled.h2`
 
 const AppContainer = styled.div`
 display: block;
+width: 300px;
+height: 796px;
 border: 1px solid #ccc;
 border-top: 2px solid #0074e4;
 box-shadow: 0 0 2px rgba(0,0,0,.2);
