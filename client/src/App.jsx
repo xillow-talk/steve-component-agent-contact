@@ -60,3 +60,5 @@ function App(props) {
 }
 
 export default App;
+
+window.App = App;
