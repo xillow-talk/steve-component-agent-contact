@@ -1,15 +1,12 @@
 import React from 'react';
-import styled from 'styled-components';
 import ListedAgent from './ListedAgent.jsx';
 import PremierAgent from './PremierAgent.jsx';
 import axios from 'axios';
 
-const Ad = styled.a`
-font-size: 12;
-font-weight: 300;
-text-decoration: none;
-color: #0074e4;
-`;
+// styled components
+import { Ad } from '../styles.js';
+
+
 class AllAgents extends React.Component {
   constructor(props) {
     super(props);

@@ -1,6 +1,6 @@
-DROP DATABASE agents;
-CREATE DATABASE agents;
-USE agents;
+  DROP DATABASE IF EXISTS agents;
+  CREATE DATABASE IF NOT EXISTS agents;
+  USE agents;
 
 CREATE TABLE listedAgent (
   id INT AUTO_INCREMENT,

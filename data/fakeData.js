@@ -49,6 +49,7 @@ const createData = () => {
         iterator();
       } else {
         console.log('Fake data inserted into DB');
+        connection.destroy()
       }
       if (err) {
         console.log('fake data insert FAILED', err);
@@ -57,8 +58,9 @@ const createData = () => {
   };
 
   connection.query(`
-  DROP DATABASE agents;
-  CREATE DATABASE agents;
+  DROP DATABASE IF EXISTS agents;
+  CREATE DATABASE IF NOT EXISTS agents;
+
   USE agents;
 
   CREATE TABLE listedAgent (

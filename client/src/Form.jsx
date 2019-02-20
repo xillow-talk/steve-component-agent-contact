@@ -1,76 +1,15 @@
 import React from 'react';
-import styled from 'styled-components';
 
-//CSS
-const FormContainer = styled.div`
-  box-sizing: border-box;
-  display: block;
-  font-family: Gotham,gotham,Verdana,sans-serif;
-  line-height: 1.5;
-  color: #444;
-`;
+// styled components
+import {
+  FormContainer,
+  Input,
+  Button,
+  ContactAgent,
+  FinanceInfo,
+  FinanceSpan
+} from '../styles.js';
 
-const Input = styled.input`
-  padding-left: 25px;
-  margin-bottom: 7px; //self
-  min-height: 30px;
-  font-size: .86666667rem;
-  height: 30px;
-  line-height: 1.5em;
-  width: 100%;
-  border: 1px solid #aaa;
-  background-color: #fff;
-  box-shadow: inset 0 2px 2px #fafafa, 0 0 0 #62aef7;
-  box-sizing: border-box;
-  color: inherit;
-  font: inherit;
-
-  text-rendering: auto;
-  letter-spacing: normal;
-  word-spacing: normal;
-  text-transform: none;
-  text-indent: 0px;
-  text-shadow: none;
-  display: inline-block;
-  text-align: start;
-`;
-
-const Button = styled.button`
-  width: 100%;
-  border: 1px solid transparent;
-  border-radius: 5px;
-  cursor: pointer;
-  display: inline-block;
-  padding: .4em .67em;
-  text-align: center;
-  white-space: normal;
-  background: #0074e4;
-  color: #fff;
-  margin-bottom: 10px;
-`;
-
-const ContactAgent = styled.span`
-font-size: 18px; //self
-box-sizing: border-box;
-color: #fff;
-text-align: center;
-white-space: normal;
-line-height: 1.5;
-
-`;
-
-const FinanceInfo = styled.input`
-content: "";
-border: 1px solid #aaa;
-border-color: #666;
-background-color: #fff;
-`;
-
-const FinanceSpan = styled.span`
-color: #444;
-`;
-
-//Component
 class Form extends React.Component {
   constructor(props) {
     super(props);
