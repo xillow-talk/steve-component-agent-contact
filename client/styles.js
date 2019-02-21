@@ -198,6 +198,11 @@ margin-bottom: 3px;  //self
   }
 `;
 
+export const Stars = styled.img`
+width:95px;
+height:20px;
+`;
+
 export const SalesContainer = styled.span`
 display: flex;
 flex-direction: row;

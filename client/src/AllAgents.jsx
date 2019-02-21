@@ -23,7 +23,7 @@ class AllAgents extends React.Component {
       .then(response => {
 
         // response is of type string
-        // [{"id":101,"house_id":100,"agent_name":"Arch Weber","agent_company":"Bechtelar, Gislason and Schuppe","agent_phone":"(236) 089-1945 x509","agent_url":"http://lorempixel.com/640/480/people
+        // [{"id":101,"house_id":100,"agent_name":"Arch Weber","agitgent_company":"Bechtelar, Gislason and Schuppe","agent_phone":"(236) 089-1945 x509","agent_url":"http://lorempixel.com/640/480/people
         const listAgent = response.data[0];
         this.setState({ lAgent: listAgent });
       });

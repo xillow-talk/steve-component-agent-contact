@@ -9,6 +9,7 @@ import {
   Badge,
   Name,
   ReviewContainer,
+  Stars,
   SalesContainer
 } from '../styles.js';
 
@@ -23,11 +24,7 @@ const ListedAgent = ({ lAgent }) => {
           <Name>{lAgent.name}</Name>
           <ReviewContainer>
             <span className="starContainer">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
+              <Stars src="https://s3.amazonaws.com/xillowstars/stars.png" ></Stars>
             </span>
             <span>(<a className="reviewColor">{lAgent.reviews}</a>)</span>
           </ReviewContainer>
