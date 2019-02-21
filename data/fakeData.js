@@ -49,7 +49,6 @@ const createData = () => {
         iterator();
       } else {
         console.log('Fake data inserted into DB');
-        connection.destroy()
       }
       if (err) {
         console.log('fake data insert FAILED', err);
