@@ -20,8 +20,9 @@ app.use(function (req, res, next) {
 
 // renders new html for unique house data
 app.get('/:houseId', (req, res) => {
-  let houseId = req.params.houseId;
-  res.sendfile('../client./dist/index.html');
+  // let houseId = req.params.houseId;
+
+  res.sendFile(path.resolve(__dirname + '/../client/dist/index.html'));
 });
 
 app.get('/houseId/listedAgent/:houseId', (req, res) => {
