@@ -1,0 +1,2058 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> render correctly  1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-flex-diretion: row;
+  -ms-flex-diretion: row;
+  flex-diretion: row;
+  margin-bottom: 10px;
+}
+
+.c0 .left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  content: "";
+  border: 1px solid #aaa;
+  background-color: #fff;
+  border-radius: 99px;
+}
+
+.c2 {
+  height: 60px;
+  width: 60px;
+  border-radius: 5px;
+}
+
+.c3 {
+  display: block;
+  line-height: 1em;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-rendering: auto;
+  font-family: Gotham,gotham,Verdana,sans-serif;
+}
+
+.c3 .phoneNumber {
+  font-size: 14px;
+  display: block;
+  font-family: Gotham,gotham,Verdana,sans-serif;
+  color: #444;
+}
+
+.c7 {
+  display: inline-block;
+  max-width: 45px;
+  padding: 1px 2px;
+  font-family: arial,sans-serif;
+  font-size: 9px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 8px;
+  border-radius: 2px;
+  border: 1px solid #eee;
+  color: #aaa;
+}
+
+.c4 {
+  color: #0074e4;
+  display: block;
+  font-size: 15px;
+  font-family: Gotham,gotham,Verdana,sans-serif;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+
+.c5 .starContainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  color: #03c04a;
+}
+
+.c5 .reviewColor {
+  font-size: 15px;
+  color: #0074e4;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+
+.c6 .salesCount {
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  background-color: #1b5098;
+  padding: 2px;
+  min-width: 20px;
+  font-weight: 700;
+  border-radius: 2px;
+  line-height: 13px;
+  height: auto;
+}
+
+.c6 .salesText {
+  font-size: 14px;
+  color: #444;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-flex-diretion: row;
+  -ms-flex-diretion: row;
+  flex-diretion: row;
+  margin-bottom: 10px;
+}
+
+.c8 .left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c9 {
+  height: 60px;
+  width: 60px;
+  border-radius: 5px;
+}
+
+.c10 {
+  display: block;
+  line-height: 1em;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-rendering: auto;
+  font-family: Gotham,gotham,Verdana,sans-serif;
+}
+
+.c10 .phoneNumber {
+  font-size: 14px;
+  display: block;
+  font-family: Gotham,gotham,Verdana,sans-serif;
+  color: #444;
+}
+
+.c14 {
+  display: inline-block;
+  max-width: 45px;
+  padding: 1px 2px;
+  font-family: arial,sans-serif;
+  font-size: 9px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 8px;
+  border-radius: 2px;
+  border: 1px solid #eee;
+  color: #aaa;
+}
+
+.c11 {
+  color: #0074e4;
+  display: block;
+  font-size: 15px;
+  font-family: Gotham,gotham,Verdana,sans-serif;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+
+.c12 .starContainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  color: #03c04a;
+}
+
+.c12 .reviewColor {
+  color: #0074e4;
+  font-size: 15px;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+
+.c13 .salesCount {
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  background-color: #1b5098;
+  padding: 2px;
+  min-width: 20px;
+  font-weight: 700;
+  border-radius: 2px;
+  line-height: 13px;
+  height: auto;
+}
+
+.c13 .salesText {
+  font-size: 14px;
+  color: #444;
+}
+
+.c15 {
+  font-size: 12;
+  font-weight: 300;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #0074e4;
+}
+
+<div>
+  <div
+    className="c0"
+  >
+    <div
+      className="left"
+    >
+      <input
+        className="c1"
+        type="radio"
+      />
+      <img
+        className="c2"
+      />
+      <div
+        className="c3"
+      >
+        <span
+          className="c4"
+        />
+        <span
+          className="c5"
+        >
+          <span
+            className="starContainer"
+          >
+            <i
+              class="fas fa-star"
+            />
+            <i
+              class="fas fa-star"
+            />
+            <i
+              class="fas fa-star"
+            />
+            <i
+              class="fas fa-star"
+            />
+            <i
+              class="fas fa-star"
+            />
+          </span>
+          <span>
+            (
+            <a
+              className="reviewColor"
+            />
+            )
+          </span>
+        </span>
+        <span
+          className="c6"
+        >
+          <span
+            className="salesCount"
+          />
+          <span
+            className="salesText"
+          >
+            Recent sales
+          </span>
+        </span>
+        <a
+          className="phoneNumber"
+        />
+      </div>
+    </div>
+    <span
+      className="c7"
+    >
+      Listing Agent
+    </span>
+  </div>
+  <div
+    className="c8"
+  >
+    <div
+      className="left"
+    >
+      <input
+        type="radio"
+      />
+      <img
+        className="c9"
+      />
+      <div
+        className="c10"
+      >
+        <span
+          className="c11"
+        />
+        <span
+          className="c12"
+        >
+          <span
+            className="starContainer"
+          >
+            <i
+              class="fas fa-star"
+            />
+            <i
+              class="fas fa-star"
+            />
+            <i
+              class="fas fa-star"
+            />
+            <i
+              class="fas fa-star"
+            />
+            <i
+              class="fas fa-star"
+            />
+          </span>
+          <span>
+            (
+            <a
+              className="reviewColor"
+            />
+            )
+          </span>
+        </span>
+        <span
+          className="c13"
+        >
+          <span
+            className="salesCount"
+          />
+          <span
+            className="salesText"
+          >
+            Recent sales
+          </span>
+        </span>
+        <a
+          className="phoneNumber"
+        />
+      </div>
+    </div>
+    <span
+      className="c14"
+    >
+      Premier Agent
+    </span>
+  </div>
+  <div
+    className="c8"
+  >
+    <div
+      className="left"
+    >
+      <input
+        type="radio"
+      />
+      <img
+        className="c9"
+      />
+      <div
+        className="c10"
+      >
+        <span
+          className="c11"
+        />
+        <span
+          className="c12"
+        >
+          <span
+            className="starContainer"
+          >
+            <i
+              class="fas fa-star"
+            />
+            <i
+              class="fas fa-star"
+            />
+            <i
+              class="fas fa-star"
+            />
+            <i
+              class="fas fa-star"
+            />
+            <i
+              class="fas fa-star"
+            />
+          </span>
+          <span>
+            (
+            <a
+              className="reviewColor"
+            />
+            )
+          </span>
+        </span>
+        <span
+          className="c13"
+        >
+          <span
+            className="salesCount"
+          />
+          <span
+            className="salesText"
+          >
+            Recent sales
+          </span>
+        </span>
+        <a
+          className="phoneNumber"
+        />
+      </div>
+    </div>
+    <span
+      className="c14"
+    >
+      Premier Agent
+    </span>
+  </div>
+  <div
+    className="c8"
+  >
+    <div
+      className="left"
+    >
+      <input
+        type="radio"
+      />
+      <img
+        className="c9"
+      />
+      <div
+        className="c10"
+      >
+        <span
+          className="c11"
+        />
+        <span
+          className="c12"
+        >
+          <span
+            className="starContainer"
+          >
+            <i
+              class="fas fa-star"
+            />
+            <i
+              class="fas fa-star"
+            />
+            <i
+              class="fas fa-star"
+            />
+            <i
+              class="fas fa-star"
+            />
+            <i
+              class="fas fa-star"
+            />
+          </span>
+          <span>
+            (
+            <a
+              className="reviewColor"
+            />
+            )
+          </span>
+        </span>
+        <span
+          className="c13"
+        >
+          <span
+            className="salesCount"
+          />
+          <span
+            className="salesText"
+          >
+            Recent sales
+          </span>
+        </span>
+        <a
+          className="phoneNumber"
+        />
+      </div>
+    </div>
+    <span
+      className="c14"
+    >
+      Premier Agent
+    </span>
+  </div>
+  <a
+    className="c15"
+  >
+    Learn how to appear as the agent above
+  </a>
+</div>
+`;
+
+exports[`<App /> should shallow 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-flex-diretion: row;
+  -ms-flex-diretion: row;
+  flex-diretion: row;
+  margin-bottom: 10px;
+}
+
+.c0 .left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  content: "";
+  border: 1px solid #aaa;
+  background-color: #fff;
+  border-radius: 99px;
+}
+
+.c2 {
+  height: 60px;
+  width: 60px;
+  border-radius: 5px;
+}
+
+.c3 {
+  display: block;
+  line-height: 1em;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-rendering: auto;
+  font-family: Gotham,gotham,Verdana,sans-serif;
+}
+
+.c3 .phoneNumber {
+  font-size: 14px;
+  display: block;
+  font-family: Gotham,gotham,Verdana,sans-serif;
+  color: #444;
+}
+
+.c7 {
+  display: inline-block;
+  max-width: 45px;
+  padding: 1px 2px;
+  font-family: arial,sans-serif;
+  font-size: 9px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 8px;
+  border-radius: 2px;
+  border: 1px solid #eee;
+  color: #aaa;
+}
+
+.c4 {
+  color: #0074e4;
+  display: block;
+  font-size: 15px;
+  font-family: Gotham,gotham,Verdana,sans-serif;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+
+.c5 .starContainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  color: #03c04a;
+}
+
+.c5 .reviewColor {
+  font-size: 15px;
+  color: #0074e4;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+
+.c6 .salesCount {
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  background-color: #1b5098;
+  padding: 2px;
+  min-width: 20px;
+  font-weight: 700;
+  border-radius: 2px;
+  line-height: 13px;
+  height: auto;
+}
+
+.c6 .salesText {
+  font-size: 14px;
+  color: #444;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-flex-diretion: row;
+  -ms-flex-diretion: row;
+  flex-diretion: row;
+  margin-bottom: 10px;
+}
+
+.c8 .left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c9 {
+  height: 60px;
+  width: 60px;
+  border-radius: 5px;
+}
+
+.c10 {
+  display: block;
+  line-height: 1em;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-rendering: auto;
+  font-family: Gotham,gotham,Verdana,sans-serif;
+}
+
+.c10 .phoneNumber {
+  font-size: 14px;
+  display: block;
+  font-family: Gotham,gotham,Verdana,sans-serif;
+  color: #444;
+}
+
+.c14 {
+  display: inline-block;
+  max-width: 45px;
+  padding: 1px 2px;
+  font-family: arial,sans-serif;
+  font-size: 9px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 8px;
+  border-radius: 2px;
+  border: 1px solid #eee;
+  color: #aaa;
+}
+
+.c11 {
+  color: #0074e4;
+  display: block;
+  font-size: 15px;
+  font-family: Gotham,gotham,Verdana,sans-serif;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+
+.c12 .starContainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  color: #03c04a;
+}
+
+.c12 .reviewColor {
+  color: #0074e4;
+  font-size: 15px;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+
+.c13 .salesCount {
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  background-color: #1b5098;
+  padding: 2px;
+  min-width: 20px;
+  font-weight: 700;
+  border-radius: 2px;
+  line-height: 13px;
+  height: auto;
+}
+
+.c13 .salesText {
+  font-size: 14px;
+  color: #444;
+}
+
+.c15 {
+  font-size: 12;
+  font-weight: 300;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #0074e4;
+}
+
+<AllAgents>
+  <div>
+    <ListedAgent
+      lAgent={Object {}}
+    >
+      <ListedAgent__AgentContainer>
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "ListedAgent__AgentContainer-zn5e1b-0",
+                "isStatic": true,
+                "lastClassName": "c0",
+                "rules": Array [
+                  "display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:nowrap;flex-diretion:row;margin-bottom:10px;.left{display:flex;align-items:center;}",
+                ],
+              },
+              "displayName": "ListedAgent__AgentContainer",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "ListedAgent__AgentContainer-zn5e1b-0",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+        >
+          <div
+            className="c0"
+          >
+            <div
+              className="left"
+            >
+              <ListedAgent__Radio
+                type="radio"
+              >
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "ListedAgent__Radio-zn5e1b-1",
+                        "isStatic": true,
+                        "lastClassName": "c1",
+                        "rules": Array [
+                          "content:\\"\\";border:1px solid #aaa;background-color:#fff;border-radius:99px;",
+                        ],
+                      },
+                      "displayName": "ListedAgent__Radio",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "ListedAgent__Radio-zn5e1b-1",
+                      "target": "input",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  type="radio"
+                >
+                  <input
+                    className="c1"
+                    type="radio"
+                  />
+                </StyledComponent>
+              </ListedAgent__Radio>
+              <ListedAgent__Avatar>
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "ListedAgent__Avatar-zn5e1b-2",
+                        "isStatic": true,
+                        "lastClassName": "c2",
+                        "rules": Array [
+                          "height:60px;width:60px;border-radius:5px;",
+                        ],
+                      },
+                      "displayName": "ListedAgent__Avatar",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "ListedAgent__Avatar-zn5e1b-2",
+                      "target": "img",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <img
+                    className="c2"
+                  />
+                </StyledComponent>
+              </ListedAgent__Avatar>
+              <ListedAgent__Infobox>
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "ListedAgent__Infobox-zn5e1b-3",
+                        "isStatic": true,
+                        "lastClassName": "c3",
+                        "rules": Array [
+                          "display:block;line-height:1em;letter-spacing:normal;word-spacing:normal;text-rendering:auto;font-family:Gotham,gotham,Verdana,sans-serif;.phoneNumber{font-size:14px;display:block;font-family:Gotham,gotham,Verdana,sans-serif;color:#444;}",
+                        ],
+                      },
+                      "displayName": "ListedAgent__Infobox",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "ListedAgent__Infobox-zn5e1b-3",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <div
+                    className="c3"
+                  >
+                    <ListedAgent__Name>
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "ListedAgent__Name-zn5e1b-5",
+                              "isStatic": true,
+                              "lastClassName": "c4",
+                              "rules": Array [
+                                "color:#0074e4;display:block;font-size:15px;font-family:Gotham,gotham,Verdana,sans-serif;",
+                              ],
+                            },
+                            "displayName": "ListedAgent__Name",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "ListedAgent__Name-zn5e1b-5",
+                            "target": "span",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                      >
+                        <span
+                          className="c4"
+                        />
+                      </StyledComponent>
+                    </ListedAgent__Name>
+                    <ListedAgent__ReviewContainer>
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "ListedAgent__ReviewContainer-zn5e1b-6",
+                              "isStatic": true,
+                              "lastClassName": "c5",
+                              "rules": Array [
+                                "display:flex;flex-direction:row;justify-content:space-between;margin-bottom:3px;.starContainer{display:flex;flex-direction:row;color:#03c04a;}.reviewColor{font-size:15px;color:#0074e4;}",
+                              ],
+                            },
+                            "displayName": "ListedAgent__ReviewContainer",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "ListedAgent__ReviewContainer-zn5e1b-6",
+                            "target": "span",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                      >
+                        <span
+                          className="c5"
+                        >
+                          <span
+                            className="starContainer"
+                          >
+                            <i
+                              class="fas fa-star"
+                            />
+                            <i
+                              class="fas fa-star"
+                            />
+                            <i
+                              class="fas fa-star"
+                            />
+                            <i
+                              class="fas fa-star"
+                            />
+                            <i
+                              class="fas fa-star"
+                            />
+                          </span>
+                          <span>
+                            (
+                            <a
+                              className="reviewColor"
+                            />
+                            )
+                          </span>
+                        </span>
+                      </StyledComponent>
+                    </ListedAgent__ReviewContainer>
+                    <ListedAgent__SalesContainer>
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "ListedAgent__SalesContainer-zn5e1b-7",
+                              "isStatic": true,
+                              "lastClassName": "c6",
+                              "rules": Array [
+                                "display:flex;flex-direction:row;justify-content:space-between;margin-bottom:3px;.salesCount{display:inline-block;text-align:center;font-size:14px;color:#fff;background-color:#1b5098;padding:2px;min-width:20px;font-weight:700;border-radius:2px;line-height:13px;height:auto;}.salesText{font-size:14px;color:#444;}",
+                              ],
+                            },
+                            "displayName": "ListedAgent__SalesContainer",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "ListedAgent__SalesContainer-zn5e1b-7",
+                            "target": "span",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                      >
+                        <span
+                          className="c6"
+                        >
+                          <span
+                            className="salesCount"
+                          />
+                          <span
+                            className="salesText"
+                          >
+                            Recent sales
+                          </span>
+                        </span>
+                      </StyledComponent>
+                    </ListedAgent__SalesContainer>
+                    <a
+                      className="phoneNumber"
+                    />
+                  </div>
+                </StyledComponent>
+              </ListedAgent__Infobox>
+            </div>
+            <ListedAgent__Badge>
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "ListedAgent__Badge-zn5e1b-4",
+                      "isStatic": true,
+                      "lastClassName": "c7",
+                      "rules": Array [
+                        "display:inline-block;max-width:45px;padding:1px 2px;font-family:arial,sans-serif;font-size:9px;text-transform:uppercase;text-align:center;line-height:8px;border-radius:2px;border:1px solid #eee;color:#aaa;",
+                      ],
+                    },
+                    "displayName": "ListedAgent__Badge",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "ListedAgent__Badge-zn5e1b-4",
+                    "target": "span",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <span
+                  className="c7"
+                >
+                  Listing Agent
+                </span>
+              </StyledComponent>
+            </ListedAgent__Badge>
+          </div>
+        </StyledComponent>
+      </ListedAgent__AgentContainer>
+    </ListedAgent>
+    <PremierAgent
+      pAgents={Object {}}
+    >
+      <PremierAgent__AgentContainer>
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "PremierAgent__AgentContainer-sc-1mz6v90-0",
+                "isStatic": true,
+                "lastClassName": "c8",
+                "rules": Array [
+                  "display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:nowrap;flex-diretion:row;margin-bottom:10px;.left{display:flex;align-items:center;}",
+                ],
+              },
+              "displayName": "PremierAgent__AgentContainer",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "PremierAgent__AgentContainer-sc-1mz6v90-0",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+        >
+          <div
+            className="c8"
+          >
+            <div
+              className="left"
+            >
+              <input
+                type="radio"
+              />
+              <PremierAgent__Avatar>
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "PremierAgent__Avatar-sc-1mz6v90-1",
+                        "isStatic": true,
+                        "lastClassName": "c9",
+                        "rules": Array [
+                          "height:60px;width:60px;border-radius:5px;",
+                        ],
+                      },
+                      "displayName": "PremierAgent__Avatar",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "PremierAgent__Avatar-sc-1mz6v90-1",
+                      "target": "img",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <img
+                    className="c9"
+                  />
+                </StyledComponent>
+              </PremierAgent__Avatar>
+              <PremierAgent__Infobox>
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "PremierAgent__Infobox-sc-1mz6v90-2",
+                        "isStatic": true,
+                        "lastClassName": "c10",
+                        "rules": Array [
+                          "display:block;line-height:1em;letter-spacing:normal;word-spacing:normal;text-rendering:auto;font-family:Gotham,gotham,Verdana,sans-serif;.phoneNumber{font-size:14px;display:block;font-family:Gotham,gotham,Verdana,sans-serif;color:#444;}",
+                        ],
+                      },
+                      "displayName": "PremierAgent__Infobox",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "PremierAgent__Infobox-sc-1mz6v90-2",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <div
+                    className="c10"
+                  >
+                    <PremierAgent__Name>
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "PremierAgent__Name-sc-1mz6v90-4",
+                              "isStatic": true,
+                              "lastClassName": "c11",
+                              "rules": Array [
+                                "color:#0074e4;display:block;font-size:15px;font-family:Gotham,gotham,Verdana,sans-serif;",
+                              ],
+                            },
+                            "displayName": "PremierAgent__Name",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "PremierAgent__Name-sc-1mz6v90-4",
+                            "target": "span",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                      >
+                        <span
+                          className="c11"
+                        />
+                      </StyledComponent>
+                    </PremierAgent__Name>
+                    <PremierAgent__ReviewContainer>
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "PremierAgent__ReviewContainer-sc-1mz6v90-5",
+                              "isStatic": true,
+                              "lastClassName": "c12",
+                              "rules": Array [
+                                "display:flex;flex-direction:row;justify-content:space-between;margin-bottom:3px;.starContainer{display:flex;flex-direction:row;color:#03c04a;}.reviewColor{color:#0074e4;font-size:15px;}",
+                              ],
+                            },
+                            "displayName": "PremierAgent__ReviewContainer",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "PremierAgent__ReviewContainer-sc-1mz6v90-5",
+                            "target": "span",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                      >
+                        <span
+                          className="c12"
+                        >
+                          <span
+                            className="starContainer"
+                          >
+                            <i
+                              class="fas fa-star"
+                            />
+                            <i
+                              class="fas fa-star"
+                            />
+                            <i
+                              class="fas fa-star"
+                            />
+                            <i
+                              class="fas fa-star"
+                            />
+                            <i
+                              class="fas fa-star"
+                            />
+                          </span>
+                          <span>
+                            (
+                            <a
+                              className="reviewColor"
+                            />
+                            )
+                          </span>
+                        </span>
+                      </StyledComponent>
+                    </PremierAgent__ReviewContainer>
+                    <PremierAgent__SalesContainer>
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "PremierAgent__SalesContainer-sc-1mz6v90-6",
+                              "isStatic": true,
+                              "lastClassName": "c13",
+                              "rules": Array [
+                                "display:flex;flex-direction:row;justify-content:space-between;margin-bottom:3px;.salesCount{display:inline-block;text-align:center;font-size:14px;color:#fff;background-color:#1b5098;padding:2px;min-width:20px;font-weight:700;border-radius:2px;line-height:13px;height:auto;}.salesText{font-size:14px;color:#444;}",
+                              ],
+                            },
+                            "displayName": "PremierAgent__SalesContainer",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "PremierAgent__SalesContainer-sc-1mz6v90-6",
+                            "target": "span",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                      >
+                        <span
+                          className="c13"
+                        >
+                          <span
+                            className="salesCount"
+                          />
+                          <span
+                            className="salesText"
+                          >
+                            Recent sales
+                          </span>
+                        </span>
+                      </StyledComponent>
+                    </PremierAgent__SalesContainer>
+                    <a
+                      className="phoneNumber"
+                    />
+                  </div>
+                </StyledComponent>
+              </PremierAgent__Infobox>
+            </div>
+            <PremierAgent__Badge>
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "PremierAgent__Badge-sc-1mz6v90-3",
+                      "isStatic": true,
+                      "lastClassName": "c14",
+                      "rules": Array [
+                        "display:inline-block;max-width:45px;padding:1px 2px;font-family:arial,sans-serif;font-size:9px;text-transform:uppercase;text-align:center;line-height:8px;border-radius:2px;border:1px solid #eee;color:#aaa;",
+                      ],
+                    },
+                    "displayName": "PremierAgent__Badge",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "PremierAgent__Badge-sc-1mz6v90-3",
+                    "target": "span",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <span
+                  className="c14"
+                >
+                  Premier Agent
+                </span>
+              </StyledComponent>
+            </PremierAgent__Badge>
+          </div>
+        </StyledComponent>
+      </PremierAgent__AgentContainer>
+    </PremierAgent>
+    <PremierAgent
+      pAgents={Object {}}
+    >
+      <PremierAgent__AgentContainer>
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "PremierAgent__AgentContainer-sc-1mz6v90-0",
+                "isStatic": true,
+                "lastClassName": "c8",
+                "rules": Array [
+                  "display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:nowrap;flex-diretion:row;margin-bottom:10px;.left{display:flex;align-items:center;}",
+                ],
+              },
+              "displayName": "PremierAgent__AgentContainer",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "PremierAgent__AgentContainer-sc-1mz6v90-0",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+        >
+          <div
+            className="c8"
+          >
+            <div
+              className="left"
+            >
+              <input
+                type="radio"
+              />
+              <PremierAgent__Avatar>
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "PremierAgent__Avatar-sc-1mz6v90-1",
+                        "isStatic": true,
+                        "lastClassName": "c9",
+                        "rules": Array [
+                          "height:60px;width:60px;border-radius:5px;",
+                        ],
+                      },
+                      "displayName": "PremierAgent__Avatar",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "PremierAgent__Avatar-sc-1mz6v90-1",
+                      "target": "img",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <img
+                    className="c9"
+                  />
+                </StyledComponent>
+              </PremierAgent__Avatar>
+              <PremierAgent__Infobox>
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "PremierAgent__Infobox-sc-1mz6v90-2",
+                        "isStatic": true,
+                        "lastClassName": "c10",
+                        "rules": Array [
+                          "display:block;line-height:1em;letter-spacing:normal;word-spacing:normal;text-rendering:auto;font-family:Gotham,gotham,Verdana,sans-serif;.phoneNumber{font-size:14px;display:block;font-family:Gotham,gotham,Verdana,sans-serif;color:#444;}",
+                        ],
+                      },
+                      "displayName": "PremierAgent__Infobox",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "PremierAgent__Infobox-sc-1mz6v90-2",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <div
+                    className="c10"
+                  >
+                    <PremierAgent__Name>
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "PremierAgent__Name-sc-1mz6v90-4",
+                              "isStatic": true,
+                              "lastClassName": "c11",
+                              "rules": Array [
+                                "color:#0074e4;display:block;font-size:15px;font-family:Gotham,gotham,Verdana,sans-serif;",
+                              ],
+                            },
+                            "displayName": "PremierAgent__Name",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "PremierAgent__Name-sc-1mz6v90-4",
+                            "target": "span",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                      >
+                        <span
+                          className="c11"
+                        />
+                      </StyledComponent>
+                    </PremierAgent__Name>
+                    <PremierAgent__ReviewContainer>
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "PremierAgent__ReviewContainer-sc-1mz6v90-5",
+                              "isStatic": true,
+                              "lastClassName": "c12",
+                              "rules": Array [
+                                "display:flex;flex-direction:row;justify-content:space-between;margin-bottom:3px;.starContainer{display:flex;flex-direction:row;color:#03c04a;}.reviewColor{color:#0074e4;font-size:15px;}",
+                              ],
+                            },
+                            "displayName": "PremierAgent__ReviewContainer",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "PremierAgent__ReviewContainer-sc-1mz6v90-5",
+                            "target": "span",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                      >
+                        <span
+                          className="c12"
+                        >
+                          <span
+                            className="starContainer"
+                          >
+                            <i
+                              class="fas fa-star"
+                            />
+                            <i
+                              class="fas fa-star"
+                            />
+                            <i
+                              class="fas fa-star"
+                            />
+                            <i
+                              class="fas fa-star"
+                            />
+                            <i
+                              class="fas fa-star"
+                            />
+                          </span>
+                          <span>
+                            (
+                            <a
+                              className="reviewColor"
+                            />
+                            )
+                          </span>
+                        </span>
+                      </StyledComponent>
+                    </PremierAgent__ReviewContainer>
+                    <PremierAgent__SalesContainer>
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "PremierAgent__SalesContainer-sc-1mz6v90-6",
+                              "isStatic": true,
+                              "lastClassName": "c13",
+                              "rules": Array [
+                                "display:flex;flex-direction:row;justify-content:space-between;margin-bottom:3px;.salesCount{display:inline-block;text-align:center;font-size:14px;color:#fff;background-color:#1b5098;padding:2px;min-width:20px;font-weight:700;border-radius:2px;line-height:13px;height:auto;}.salesText{font-size:14px;color:#444;}",
+                              ],
+                            },
+                            "displayName": "PremierAgent__SalesContainer",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "PremierAgent__SalesContainer-sc-1mz6v90-6",
+                            "target": "span",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                      >
+                        <span
+                          className="c13"
+                        >
+                          <span
+                            className="salesCount"
+                          />
+                          <span
+                            className="salesText"
+                          >
+                            Recent sales
+                          </span>
+                        </span>
+                      </StyledComponent>
+                    </PremierAgent__SalesContainer>
+                    <a
+                      className="phoneNumber"
+                    />
+                  </div>
+                </StyledComponent>
+              </PremierAgent__Infobox>
+            </div>
+            <PremierAgent__Badge>
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "PremierAgent__Badge-sc-1mz6v90-3",
+                      "isStatic": true,
+                      "lastClassName": "c14",
+                      "rules": Array [
+                        "display:inline-block;max-width:45px;padding:1px 2px;font-family:arial,sans-serif;font-size:9px;text-transform:uppercase;text-align:center;line-height:8px;border-radius:2px;border:1px solid #eee;color:#aaa;",
+                      ],
+                    },
+                    "displayName": "PremierAgent__Badge",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "PremierAgent__Badge-sc-1mz6v90-3",
+                    "target": "span",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <span
+                  className="c14"
+                >
+                  Premier Agent
+                </span>
+              </StyledComponent>
+            </PremierAgent__Badge>
+          </div>
+        </StyledComponent>
+      </PremierAgent__AgentContainer>
+    </PremierAgent>
+    <PremierAgent
+      pAgents={Object {}}
+    >
+      <PremierAgent__AgentContainer>
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "PremierAgent__AgentContainer-sc-1mz6v90-0",
+                "isStatic": true,
+                "lastClassName": "c8",
+                "rules": Array [
+                  "display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:nowrap;flex-diretion:row;margin-bottom:10px;.left{display:flex;align-items:center;}",
+                ],
+              },
+              "displayName": "PremierAgent__AgentContainer",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "PremierAgent__AgentContainer-sc-1mz6v90-0",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+        >
+          <div
+            className="c8"
+          >
+            <div
+              className="left"
+            >
+              <input
+                type="radio"
+              />
+              <PremierAgent__Avatar>
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "PremierAgent__Avatar-sc-1mz6v90-1",
+                        "isStatic": true,
+                        "lastClassName": "c9",
+                        "rules": Array [
+                          "height:60px;width:60px;border-radius:5px;",
+                        ],
+                      },
+                      "displayName": "PremierAgent__Avatar",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "PremierAgent__Avatar-sc-1mz6v90-1",
+                      "target": "img",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <img
+                    className="c9"
+                  />
+                </StyledComponent>
+              </PremierAgent__Avatar>
+              <PremierAgent__Infobox>
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "PremierAgent__Infobox-sc-1mz6v90-2",
+                        "isStatic": true,
+                        "lastClassName": "c10",
+                        "rules": Array [
+                          "display:block;line-height:1em;letter-spacing:normal;word-spacing:normal;text-rendering:auto;font-family:Gotham,gotham,Verdana,sans-serif;.phoneNumber{font-size:14px;display:block;font-family:Gotham,gotham,Verdana,sans-serif;color:#444;}",
+                        ],
+                      },
+                      "displayName": "PremierAgent__Infobox",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "PremierAgent__Infobox-sc-1mz6v90-2",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <div
+                    className="c10"
+                  >
+                    <PremierAgent__Name>
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "PremierAgent__Name-sc-1mz6v90-4",
+                              "isStatic": true,
+                              "lastClassName": "c11",
+                              "rules": Array [
+                                "color:#0074e4;display:block;font-size:15px;font-family:Gotham,gotham,Verdana,sans-serif;",
+                              ],
+                            },
+                            "displayName": "PremierAgent__Name",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "PremierAgent__Name-sc-1mz6v90-4",
+                            "target": "span",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                      >
+                        <span
+                          className="c11"
+                        />
+                      </StyledComponent>
+                    </PremierAgent__Name>
+                    <PremierAgent__ReviewContainer>
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "PremierAgent__ReviewContainer-sc-1mz6v90-5",
+                              "isStatic": true,
+                              "lastClassName": "c12",
+                              "rules": Array [
+                                "display:flex;flex-direction:row;justify-content:space-between;margin-bottom:3px;.starContainer{display:flex;flex-direction:row;color:#03c04a;}.reviewColor{color:#0074e4;font-size:15px;}",
+                              ],
+                            },
+                            "displayName": "PremierAgent__ReviewContainer",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "PremierAgent__ReviewContainer-sc-1mz6v90-5",
+                            "target": "span",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                      >
+                        <span
+                          className="c12"
+                        >
+                          <span
+                            className="starContainer"
+                          >
+                            <i
+                              class="fas fa-star"
+                            />
+                            <i
+                              class="fas fa-star"
+                            />
+                            <i
+                              class="fas fa-star"
+                            />
+                            <i
+                              class="fas fa-star"
+                            />
+                            <i
+                              class="fas fa-star"
+                            />
+                          </span>
+                          <span>
+                            (
+                            <a
+                              className="reviewColor"
+                            />
+                            )
+                          </span>
+                        </span>
+                      </StyledComponent>
+                    </PremierAgent__ReviewContainer>
+                    <PremierAgent__SalesContainer>
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "PremierAgent__SalesContainer-sc-1mz6v90-6",
+                              "isStatic": true,
+                              "lastClassName": "c13",
+                              "rules": Array [
+                                "display:flex;flex-direction:row;justify-content:space-between;margin-bottom:3px;.salesCount{display:inline-block;text-align:center;font-size:14px;color:#fff;background-color:#1b5098;padding:2px;min-width:20px;font-weight:700;border-radius:2px;line-height:13px;height:auto;}.salesText{font-size:14px;color:#444;}",
+                              ],
+                            },
+                            "displayName": "PremierAgent__SalesContainer",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "PremierAgent__SalesContainer-sc-1mz6v90-6",
+                            "target": "span",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                      >
+                        <span
+                          className="c13"
+                        >
+                          <span
+                            className="salesCount"
+                          />
+                          <span
+                            className="salesText"
+                          >
+                            Recent sales
+                          </span>
+                        </span>
+                      </StyledComponent>
+                    </PremierAgent__SalesContainer>
+                    <a
+                      className="phoneNumber"
+                    />
+                  </div>
+                </StyledComponent>
+              </PremierAgent__Infobox>
+            </div>
+            <PremierAgent__Badge>
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "PremierAgent__Badge-sc-1mz6v90-3",
+                      "isStatic": true,
+                      "lastClassName": "c14",
+                      "rules": Array [
+                        "display:inline-block;max-width:45px;padding:1px 2px;font-family:arial,sans-serif;font-size:9px;text-transform:uppercase;text-align:center;line-height:8px;border-radius:2px;border:1px solid #eee;color:#aaa;",
+                      ],
+                    },
+                    "displayName": "PremierAgent__Badge",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "PremierAgent__Badge-sc-1mz6v90-3",
+                    "target": "span",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <span
+                  className="c14"
+                >
+                  Premier Agent
+                </span>
+              </StyledComponent>
+            </PremierAgent__Badge>
+          </div>
+        </StyledComponent>
+      </PremierAgent__AgentContainer>
+    </PremierAgent>
+    <AllAgents__Ad>
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "AllAgents__Ad-u1tyju-0",
+              "isStatic": true,
+              "lastClassName": "c15",
+              "rules": Array [
+                "font-size:12;font-weight:300;text-decoration:none;color:#0074e4;",
+              ],
+            },
+            "displayName": "AllAgents__Ad",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "AllAgents__Ad-u1tyju-0",
+            "target": "a",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+      >
+        <a
+          className="c15"
+        >
+          Learn how to appear as the agent above
+        </a>
+      </StyledComponent>
+    </AllAgents__Ad>
+  </div>
+</AllAgents>
+`;
