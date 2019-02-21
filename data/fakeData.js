@@ -3,10 +3,10 @@ const mysql = require('mysql');
 
 
 const connection = mysql.createConnection({
-  host: 'localhost',
+  host: 'agents3.csast8i0snkv.us-east-2.rds.amazonaws.com',
   user: 'root',
   password: 'Password1!',
-  database: 'agents',
+  database: 'agents3',
   multipleStatements: true,
 });
 
@@ -58,10 +58,10 @@ const createData = () => {
   };
 
   connection.query(`
-  DROP DATABASE IF EXISTS agents;
-  CREATE DATABASE IF NOT EXISTS agents;
+  DROP DATABASE IF EXISTS agents3;
+  CREATE DATABASE IF NOT EXISTS agents3;
 
-  USE agents;
+  USE agents3;
 
   CREATE TABLE listedAgent (
     id INT AUTO_INCREMENT,
