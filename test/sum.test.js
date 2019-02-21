@@ -10,7 +10,6 @@ import App from '../client/src/AllAgents.jsx';
 
 
 
-// const sum = require('./sum');
 test('Should successfully mount App', () => {
   const wrapper = shallow(<App />);
   expect(wrapper.exists()).toBe(true);
@@ -28,7 +27,3 @@ describe('<App />', () => {
 })
 
 
-// it('works', () => {
-//   wrap = mount(<App />);
-//   expect(wrap).toMatchSnapshot();
-// });
