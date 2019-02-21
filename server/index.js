@@ -4,7 +4,7 @@ const path = require('path');
 const db = require('../data/db.js');
 
 const app = express();
-const PORT = 6969;
+const PORT = 8081;
 
 app.use(express.static(path.resolve(__dirname, '../client/dist')));
 app.use(bodyParser.json());
